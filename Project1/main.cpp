@@ -16,6 +16,8 @@ int main()
 	{
 		system("cls");
 		PokazMenu();
+		PionoweLinie();
+		PoziomeLinie();
 
 		short int wybor = 0;
 		cin >> wybor;
@@ -31,7 +33,7 @@ int main()
 		case 1:
 		{
 			system("cls");
-			cout << "1. Test 1: Przygotuj dwa identyczne pliki zawieraj¹ce binarnie zapisana\n   wartosc 0x55. Kazdy plik po 100 Bajtow." << endl;
+			cout << "1. Test 1: Przygotuj dwa identyczne pliki zawierajÅ¡ce binarnie zapisana\n   wartosc 0x55. Kazdy plik po 100 Bajtow." << endl;
 
 			ZapisLog("Utworzenie pliku \"plik_1.bin\"");
 			UtworzPlik("plik_1.bin", 100, 0xFF);
@@ -47,7 +49,7 @@ int main()
 		case 2:
 		{
 			system("cls");
-			cout << "2. Test 2: Przygotuj dwa pliki kazdy po 100 bajtow.Pierwszy zawiera \n   binarnie zapisana wartosc 0x55. Drugi plik rozni siê od pierwszego o dowolne 10 bitow." << endl;
+			cout << "2. Test 2: Przygotuj dwa pliki kazdy po 100 bajtow.Pierwszy zawiera \n   binarnie zapisana wartosc 0x55. Drugi plik rozni siÄ™ od pierwszego o dowolne 10 bitow." << endl;
 
 			ZapisLog("Utworzenie pliku \"plik_1.bin\"");
 			UtworzPlik("plik_1.bin", 100, 0xFF);
